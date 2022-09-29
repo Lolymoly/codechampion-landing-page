@@ -12,8 +12,7 @@ const ThirdPage: NextPage = () => {
         width: "100%",
         height: "auto",
         backgroundColor: "#091C3B",
-        padding: "6vw",
-        paddingTop: "12vw",
+        padding: "4vw 6vw",
       }}
     >
       <div>
@@ -26,6 +25,7 @@ const ThirdPage: NextPage = () => {
             fontWeight: "600",
             textAlign: { xs: "center", sm: "left" },
             fontSize: { xs: "7vw", sm: "28px", md: "35px", lg: "3.2vw" },
+            paddingTop: { xs: "4vw", sm: "6vw" },
             lineHeight: "130%",
             color: "white",
           }}
@@ -56,6 +56,7 @@ const ThirdPage: NextPage = () => {
           display: "flex",
           alignItems: "flex-end",
           marginLeft: "auto",
+          marginTop: { xs: "0px", sm: "0px" },
           padding: { xs: "30px 0px", sm: "0px" },
           marginRight: { xs: "auto", sm: "0px" },
         }}
