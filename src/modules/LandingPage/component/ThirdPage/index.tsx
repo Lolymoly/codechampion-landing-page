@@ -20,12 +20,12 @@ const ThirdPage: NextPage = () => {
         <Typography
           sx={{
             width: "auto",
-            marginRight: { xs: "0px", sm: "-100px" },
+            marginRight: { xs: "0px", sm: "-120px" },
             fontFamily: "Kanit",
             fontStyle: "normal",
             fontWeight: "600",
             textAlign: { xs: "center", sm: "left" },
-            fontSize: { xs: "20px", sm: "25px", md: "30px", lg: "40px" },
+            fontSize: { xs: "7vw", sm: "28px", md: "35px", lg: "3.2vw" },
             lineHeight: "130%",
             color: "white",
           }}
@@ -37,12 +37,13 @@ const ThirdPage: NextPage = () => {
 
         <Typography
           sx={{
-            marginTop: "5vw",
+            marginTop: { xs: "5vw", sm: "5vw" },
             fontFamily: "Kanit",
             fontStyle: "normal",
             textAlign: { xs: "center", sm: "left" },
             fontWeight: "300",
-            fontSize: { xs: "7px", sm: "10px", md: "15px", lg: "20px" },
+            marginRight: { xs: "0px", sm: "-120px" },
+            fontSize: { xs: "2.3vw", sm: "12px", md: "15px", lg: "20px" },
             lineHeight: "180%",
             color: "white",
           }}
@@ -63,8 +64,8 @@ const ThirdPage: NextPage = () => {
           sx={{
             display: "flex",
             position: "relative",
-            width: "26.5vw",
-            height: "15vw",
+            width: { xs: "50vw", sm: "26.5vw" },
+            height: { xs: "28.3vw", sm: "15vw" },
             mr: "-50px",
             border: "1px solid black",
             zIndex: 3,
@@ -80,8 +81,8 @@ const ThirdPage: NextPage = () => {
           sx={{
             display: "flex",
             position: "relative",
-            width: "30vw",
-            height: "43.3vw",
+            width: { xs: "41.57vw", sm: "30vw" },
+            height: { xs: "60vw", sm: "43.3vw" },
             border: "1px solid black",
           }}
         >
