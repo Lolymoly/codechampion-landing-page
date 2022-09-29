@@ -12,9 +12,9 @@ const FirstPage: NextPage = () => {
         height: "auto",
         backgroundColor: "#000E1E",
         padding: {
-          xs: "0px 0px 0px 0px",
+          xs: "4vw 0px 0px 0px",
           sm: "0px 60px 0px 60px",
-          md: "0px 80px 0px 80px",
+          md: "3vw 80px 2vw 80px",
         },
       }}
     >

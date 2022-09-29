@@ -12,7 +12,7 @@ const ThirdPage: NextPage = () => {
         width: "100%",
         height: "auto",
         backgroundColor: "#091C3B",
-        padding: "4vw 6vw",
+        padding: { xs: "12vw 6vw", sm: "8vw 6vw 8vw 6vw" },
       }}
     >
       <div>
