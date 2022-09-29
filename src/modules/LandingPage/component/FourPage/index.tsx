@@ -19,11 +19,8 @@ const FourPage: NextPage = () => {
         sx={{
           display: "flex",
           position: "relative",
-          marginTop: "80px",
           width: { xs: "200px", md: "350px", lg: "483px" },
           height: { xs: "200px", md: "350px", lg: "483px" },
-          minWidth: { xs: "200px", md: "350px", lg: "483px" },
-          minHeight: { xs: "200px", md: "350px", lg: "483px" },
           marginLeft: "50px",
           marginRight: "auto",
         }}

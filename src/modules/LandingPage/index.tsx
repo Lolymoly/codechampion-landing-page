@@ -7,7 +7,7 @@ import { FourPage } from "./component/FourPage";
 const LandingPage: NextPage = () => {
   return (
     <div>
-      {/* <FirstPage /> */}
+      <FirstPage />
       {/* <SecondPage /> */}
       <ThirdPage />
       {/* <FourPage /> */}
