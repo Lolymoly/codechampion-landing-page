@@ -2,39 +2,38 @@ import { Box, Button, Typography } from "@mui/material";
 import { NextPage } from "next";
 import Image from "next/image";
 import { BulletPoint, BulletText } from "../../styled";
-
+//finish xs, sm
 const SecondPage: NextPage = () => {
   return (
-    <div
-      style={{
+    <Box
+      sx={{
         display: "flex",
-        flexDirection: "row",
-        width: "100vw",
-        height: "50vw",
+        flexDirection: { xs: "column", sm: "row" },
+        width: "100%",
+        height: "auto",
         backgroundColor: "white",
-        padding: "50px",
       }}
     >
       <Box
         sx={{
           display: "flex",
           position: "relative",
-          width: { xs: "200px", md: "350px", lg: "483px" },
-          height: { xs: "200px", md: "350px", lg: "483px" },
-          minWidth: { xs: "200px", md: "350px", lg: "483px" },
-          minHeight: { xs: "200px", md: "350px", lg: "483px" },
-          marginRight: "auto",
+          marginLeft: { xs: "auto", sm: "50px", md: "5vw" },
+          marginTop: { xs: "10vw", sm: "20vw" },
+          width: { xs: "50vw", sm: "30vw", lg: "35vw" },
+          height: { xs: "50vw", sm: "30vw", lg: "35vw" },
+          marginRight: { xs: "auto", sm: "50px" },
         }}
       >
         <Image src="/codechampion-logo.png" layout="fill" />
       </Box>
 
-      <div
-        style={{
-          marginLeft: "100px",
+      <Box
+        sx={{
+          marginLeft: { xs: "0vw", sm: "1vw", md: "auto" },
+          marginRight: { md: "2vw", lg: "0vw" },
           display: "flex",
           flexDirection: "column",
-          marginRight: "auto",
         }}
       >
         <Typography
@@ -42,22 +41,26 @@ const SecondPage: NextPage = () => {
             fontFamily: "Kanit",
             fontStyle: "normal",
             fontWeight: "800",
-            fontSize: { xs: "20px", md: "30px", lg: "49px" },
+            textAlign: { xs: "center", sm: "left" },
+            fontSize: { xs: "6vw", sm: "4vw", md: "4vw", lg: "3.5vw" },
             lineHeight: "160%",
             color: "#000000",
-            marginTop: "50px",
-            marginBottom: "20px",
+            marginTop: { xs: "0vw", sm: "17vw" },
+            marginBottom: { xs: "5vw", sm: "2vw" },
           }}
         >
           ทำไมต้อง CodeChampion ?
         </Typography>
         <Box
-          style={{
+          sx={{
             fontFamily: "Kanit",
             fontStyle: "normal",
             fontWeight: "500",
-            fontSize: "20px",
-            lineHeight: "250%",
+            marginLeft: { xs: "10vw", sm: "auto" },
+            marginRight: { xs: "0vw", sm: "2vw" },
+            marginBottom: { xs: "15vw" },
+            fontSize: { xs: "2.5vw", sm: "1.5vw", md: "1.5vw", lg: "1.5vw" },
+            lineHeight: "300%",
             color: "#000000",
           }}
         >
@@ -87,8 +90,8 @@ const SecondPage: NextPage = () => {
           คอมพิวเตอร์โอลิมปิกระดับประเทศ
           <br />
         </Box>
-      </div>
-    </div>
+      </Box>
+    </Box>
   );
 };
 
