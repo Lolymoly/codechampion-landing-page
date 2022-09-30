@@ -5,24 +5,26 @@ import { BulletPoint, BulletText } from "../../styled";
 
 const FourPage: NextPage = () => {
   return (
-    <div
-      style={{
+    <Box
+      sx={{
         display: "flex",
         flexDirection: "row",
         width: "100vw",
         height: "50vw",
         backgroundColor: "white",
-        padding: "50px",
+        paddingTop: { xs: "10vw", sm: "0vw" },
+        marginBottom: { xs: "20vw", sm: "3vw" },
       }}
     >
       <Box
         sx={{
           display: "flex",
           position: "relative",
-          width: { xs: "200px", md: "350px", lg: "483px" },
-          height: { xs: "200px", md: "350px", lg: "483px" },
-          marginLeft: "50px",
-          marginRight: "auto",
+          width: { xs: "35vw", md: "35vw", lg: "483px" },
+          height: { xs: "35vw", md: "35vw", lg: "483px" },
+          marginLeft: { xs: "5vw", sm: "5vw", lg: "5vw" },
+          marginRight: { xs: "-1vw", sm: "0vw", md: "-5vw", lg: "auto" },
+          marginTop: { xs: "10vw", lg: "10vw" },
         }}
       >
         <Image src="/codechampion-fb.svg" layout="fill" />
@@ -41,10 +43,12 @@ const FourPage: NextPage = () => {
             fontFamily: "Kanit",
             fontStyle: "normal",
             fontWeight: "800",
-            fontSize: { xs: "20px", md: "30px", lg: "49px" },
+            fontSize: { xs: "4.8vw", sm: "4.6vw", md: "4.1vw", lg: "4vw" },
             lineHeight: "160%",
             color: "#00235C",
-            marginTop: "200px",
+            marginTop: "18vw",
+            marginRight: { xs: "0px", sm: "-5vw", md: "0vw" },
+            marginLeft: { xs: "-80px", sm: "-10vw", md: "3vw", lg: "-5vw" },
             marginBottom: "20px",
           }}
         >
@@ -53,7 +57,7 @@ const FourPage: NextPage = () => {
           ที่ CodeChampion
         </Typography>
       </div>
-    </div>
+    </Box>
   );
 };
 

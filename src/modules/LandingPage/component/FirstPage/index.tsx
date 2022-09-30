@@ -14,7 +14,7 @@ const FirstPage: NextPage = () => {
         padding: {
           xs: "4vw 0px 0px 0px",
           sm: "0px 60px 0px 60px",
-          md: "3vw 80px 2vw 80px",
+          md: "4vw 80px 8vw 80px",
         },
       }}
     >

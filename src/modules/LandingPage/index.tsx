@@ -10,7 +10,7 @@ const LandingPage: NextPage = () => {
       <FirstPage />
       {/* <SecondPage /> */}
       <ThirdPage />
-      {/* <FourPage /> */}
+      <FourPage />
     </div>
   );
 };
