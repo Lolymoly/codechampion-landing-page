@@ -48,7 +48,7 @@ const FourPage: NextPage = () => {
             color: "#00235C",
             marginTop: "18vw",
             marginRight: { xs: "0px", sm: "-5vw", md: "0vw" },
-            marginLeft: { xs: "-80px", sm: "-10vw", md: "3vw", lg: "-5vw" },
+            marginLeft: { xs: "-90px", sm: "-10vw", md: "3vw", lg: "-5vw" },
             marginBottom: "20px",
           }}
         >
