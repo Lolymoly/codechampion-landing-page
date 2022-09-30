@@ -89,6 +89,7 @@ const FirstPage: NextPage = () => {
           }}
         >
           <Button
+            href="https://m.me/codechampionth"
             variant="outlined"
             sx={{
               backgroundColor: "white",
@@ -111,6 +112,7 @@ const FirstPage: NextPage = () => {
           </Button>
 
           <Button
+            href="https://www.facebook.com/CodeChampionTH/posts/103339842546095"
             variant="outlined"
             sx={{
               marginLeft: "20px",
