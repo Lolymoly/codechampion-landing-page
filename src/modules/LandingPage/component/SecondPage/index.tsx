@@ -25,7 +25,11 @@ const SecondPage: NextPage = () => {
           marginRight: { xs: "auto", sm: "50px" },
         }}
       >
-        <Image src="/codechampion-logo.png" layout="fill" />
+        <Image
+          src="/codechampion-logo.png"
+          alt="codechampion-logo"
+          layout="fill"
+        />
       </Box>
 
       <Box
