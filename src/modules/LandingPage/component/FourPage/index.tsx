@@ -27,7 +27,11 @@ const FourPage: NextPage = () => {
           marginTop: { xs: "10vw", lg: "10vw" },
         }}
       >
-        <Image src="/codechampion-fb.svg" layout="fill" />
+        <Image
+          src="/codechampion-fb.svg"
+          alt="codechampion-facebook"
+          layout="fill"
+        />
       </Box>
 
       <div

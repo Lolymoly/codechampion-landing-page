@@ -75,7 +75,7 @@ const ThirdPage: NextPage = () => {
           <Image
             src="/sample-sheet-slide.jpg"
             layout="fill"
-            alt="secondPaper"
+            alt="sample-sheet-slide"
           />
         </Box>
         <Box
@@ -87,7 +87,11 @@ const ThirdPage: NextPage = () => {
             border: "1px solid black",
           }}
         >
-          <Image src="/sample-sheet-doc.jpg" layout="fill" alt="paper" />
+          <Image
+            src="/sample-sheet-doc.jpg"
+            layout="fill"
+            alt="sample-sheet-doc"
+          />
         </Box>
       </Box>
     </Box>

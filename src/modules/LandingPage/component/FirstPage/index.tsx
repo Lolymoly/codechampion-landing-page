@@ -146,7 +146,11 @@ const FirstPage: NextPage = () => {
           overflow: "hidden",
         }}
       >
-        <Image src="/course-description.png" layout="fill" />
+        <Image
+          src="/course-description.png"
+          alt="codechampion-course-description"
+          layout="fill"
+        />
       </Box>
     </Box>
   );
