@@ -8,7 +8,7 @@ const LandingPage: NextPage = () => {
   return (
     <div>
       <p>(Dev!)</p>
-      <FirstPage />
+      {/* <FirstPage /> */}
       <SecondPage />
       <ThirdPage />
       <FourPage />
