@@ -95,47 +95,58 @@ function NavBar() {
             >
               <MenuIcon />
             </IconButton>
-            <Menu
-              id="menu-appbar"
-              anchorEl={anchorElNav}
-              anchorOrigin={{
-                vertical: "bottom",
-                horizontal: "right",
-              }}
-              keepMounted
-              transformOrigin={{
-                vertical: "top",
-                horizontal: "center",
-              }}
-              open={Boolean(anchorElNav)}
-              onClose={handleCloseNavMenu}
-              sx={{
-                display: { xs: "block", md: "none" },
-                fontFamily: "Kanit",
-                fontStyle: "normal",
-                fontWeight: "400",
-                color: "white",
-              }}
-            >
-              <MenuItem className={styles.menuText}
-                onClick={toPosn1}
+            <div className="menuDiv">
+              <Menu
+                className="navMenu"
+                id="menu-appbar"
+                anchorEl={anchorElNav}
+                anchorOrigin={{
+                  vertical: "bottom",
+                  horizontal: "right",
+                }}
+                keepMounted
+                transformOrigin={{
+                  vertical: "top",
+                  horizontal: "center",
+                }}
+                open={Boolean(anchorElNav)}
+                onClose={handleCloseNavMenu}
                 sx={{
-                  color: "white",
-                  fontSize: "4.2vw",
+                  display: { xs: "block", md: "none" },
+                  fontFamily: "Kanit",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  backgroundColor: "none",
                 }}
               >
-                ค่าย 1
-              </MenuItem>
-              <MenuItem className={styles.menuText}
-                onClick={toPosn2}
-                sx={{
-                  color: "white",
-                  fontSize: "4.2vw",
-                }}
-              >
-                ค่าย 2
-              </MenuItem>
-            </Menu>
+                <MenuItem
+                  className={styles.menuText}
+                  onClick={toPosn1}
+                  sx={{
+                    color: "white",
+                    fontSize: "4.2vw",
+                    fontFamily: "Kanit",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                  }}
+                >
+                  ค่าย 1
+                </MenuItem>
+                <MenuItem
+                  className={styles.menuText}
+                  onClick={toPosn2}
+                  sx={{
+                    color: "white",
+                    fontSize: "4.2vw",
+                    fontFamily: "Kanit",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                  }}
+                >
+                  ค่าย 2
+                </MenuItem>
+              </Menu>
+            </div>
           </Box>
 
           {/* # navbar list */}
@@ -152,6 +163,10 @@ function NavBar() {
               sx={{
                 my: 2,
                 color: "white",
+                fontFamily: "Kanit",
+                fontStyle: "normal",
+                fontWeight: "400",
+                marginRight: "5vw",
               }}
             >
               คอร์ส สอวน. ค่าย 1
@@ -162,6 +177,10 @@ function NavBar() {
               sx={{
                 my: 2,
                 color: "white",
+                fontFamily: "Kanit",
+                fontStyle: "normal",
+                fontWeight: "400",
+                marginRight: "5vw",
               }}
             >
               คอร์ส สอวน. ค่าย 2
