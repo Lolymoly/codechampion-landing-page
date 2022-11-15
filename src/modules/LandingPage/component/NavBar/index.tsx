@@ -7,14 +7,9 @@ import Typography from "@mui/material/Typography";
 import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
-import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
-import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
-import AdbIcon from "@mui/icons-material/Adb";
 import Image from "next/image";
-import { Divider, ListItemText, MenuList } from "@mui/material";
-import { useNavigate } from "react-router-dom";
 
 const pages = ["สอวน. ค่าย 2", "สอวน. ค่าย 1"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
@@ -156,6 +151,9 @@ function NavBar() {
               sx={{
                 my: 2,
                 color: "white",
+                fontFamily: "Kanit",
+                fontStyle: "normal",
+                fontWeight: "400",
               }}
             >
               คอร์ส สอวน. ค่าย 1
@@ -166,6 +164,9 @@ function NavBar() {
               sx={{
                 my: 2,
                 color: "white",
+                fontFamily: "Kanit",
+                fontStyle: "normal",
+                fontWeight: "400",
               }}
             >
               คอร์ส สอวน. ค่าย 2
