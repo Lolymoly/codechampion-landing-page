@@ -3,12 +3,13 @@ import { FirstPage } from "./component/FirstPage";
 import { SecondPage } from "./component/SecondPage";
 import { ThirdPage } from "./component/ThirdPage";
 import { FourPage } from "./component/FourPage";
+import NavBar from "./component/NavBar";
 
 const LandingPage: NextPage = () => {
   return (
     <div>
-      <p>(Dev!)</p>
-      {/* <FirstPage /> */}
+      <NavBar/>
+      <FirstPage />
       <SecondPage />
       <ThirdPage />
       <FourPage />

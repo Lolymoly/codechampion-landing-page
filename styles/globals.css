@@ -15,9 +15,22 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-  }
-  body {
-  }
+.MuiMenu-paper {
+  background-color: #1b3561;
+}
+
+.MuiListItemText {
+  font-family: "Kanit";
+  font-style: "normal";
+  color: "white";
+}
+
+.navButton {
+  color: "white";
+  display: "block";
+  font-family: "Kanit";
+  font-style: "normal";
+  /* font-size: 1.3vw; */
+  font-weight: "400";
+  margin-right: 5vw;
 }

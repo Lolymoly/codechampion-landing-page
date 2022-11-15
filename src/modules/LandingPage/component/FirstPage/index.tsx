@@ -14,7 +14,7 @@ const FirstPage: NextPage = () => {
         padding: {
           xs: "4vw 0px 0px 0px",
           sm: "0px 60px 0px 60px",
-          md: "4vw 80px 8vw 80px",
+          md: "2vw 80px 8vw 80px",
         },
       }}
     >
@@ -38,7 +38,7 @@ const FirstPage: NextPage = () => {
               sm: "-1vw",
               md: "0vw",
             },
-            marginTop: { xs: "7vw", sm: "8vw", md: "8vw", lg: "8vw" },
+            marginTop: { xs: "7vw", sm: "8vw", md: "8vw" },
             color: "white",
           }}
         >
