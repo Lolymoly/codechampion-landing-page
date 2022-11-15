@@ -123,7 +123,7 @@ function NavBar() {
                   className={styles.menuText}
                   onClick={toPosn1}
                   sx={{
-                    color: "white",
+                    color: "black",
                     fontSize: "4.2vw",
                     fontFamily: "Kanit",
                     fontStyle: "normal",
@@ -136,7 +136,7 @@ function NavBar() {
                   className={styles.menuText}
                   onClick={toPosn2}
                   sx={{
-                    color: "white",
+                    color: "black",
                     fontSize: "4.2vw",
                     fontFamily: "Kanit",
                     fontStyle: "normal",
