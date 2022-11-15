@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* .MuiMenu-paper {
+  background-color: #1b3561;
+} */
+
+.menuText {
+  font-family: "Kanit";
+  font-style: "normal";
+  color: "white";
+}
+
+.navButton {
+  color: "white";
+  display: "block";
+  font-family: "Kanit";
+  font-style: "normal";
+  font-weight: "400";
+  margin-right: 5vw;
+}

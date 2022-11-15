@@ -10,6 +10,7 @@ import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import Image from "next/image";
+import styles from "./navbar.module.css";
 
 const pages = ["สอวน. ค่าย 2", "สอวน. ค่าย 1"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
@@ -116,7 +117,7 @@ function NavBar() {
                 color: "white",
               }}
             >
-              <MenuItem
+              <MenuItem className={styles.menuText}
                 onClick={toPosn1}
                 sx={{
                   color: "white",
@@ -125,7 +126,7 @@ function NavBar() {
               >
                 ค่าย 1
               </MenuItem>
-              <MenuItem
+              <MenuItem className={styles.menuText}
                 onClick={toPosn2}
                 sx={{
                   color: "white",
@@ -146,27 +147,21 @@ function NavBar() {
             }}
           >
             <Button
-              className="navButton"
+              className={styles.navButton}
               onClick={toPosn1}
               sx={{
                 my: 2,
                 color: "white",
-                fontFamily: "Kanit",
-                fontStyle: "normal",
-                fontWeight: "400",
               }}
             >
               คอร์ส สอวน. ค่าย 1
             </Button>
             <Button
-              className="navButton"
+              className={styles.navButton}
               onClick={toPosn2}
               sx={{
                 my: 2,
                 color: "white",
-                fontFamily: "Kanit",
-                fontStyle: "normal",
-                fontWeight: "400",
               }}
             >
               คอร์ส สอวน. ค่าย 2
@@ -174,18 +169,6 @@ function NavBar() {
           </Box>
         </Toolbar>
       </Container>
-      {/* <Divider
-        light
-        sx={{
-          marginTop: "0.5vw",
-          marginLeft: "auto",
-          marginRight: "auto",
-          width: "90%",
-          color: "white",
-          backgroundColor: "white",
-          opacity: "50%",
-        }}
-      /> */}
     </AppBar>
   );
 }
