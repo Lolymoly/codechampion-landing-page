@@ -2,7 +2,7 @@ import { Box, Button, Typography } from "@mui/material";
 import { NextPage } from "next";
 import Image from "next/image";
 
-const FirstPage: NextPage = () => {
+const Poster2: NextPage = () => {
   return (
     <Box
       sx={{
@@ -42,7 +42,7 @@ const FirstPage: NextPage = () => {
             color: "white",
           }}
         >
-          คอร์ส สอวน. คอมพิวเตอร์<br></br>ค่าย 1 ฉบับสมบูรณ์<br></br>
+          คอร์ส สอวน. คอมพิวเตอร์<br></br>ค่าย 2  &nbsp; (New!)<br></br>
         </Typography>
 
         <Typography
@@ -69,9 +69,9 @@ const FirstPage: NextPage = () => {
             color: "white",
           }}
         >
-          เรียนออนไลน์ผ่านคลิปวิดีโอกว่า 20 ชั่วโมง ที่ไหนก็ได้ เมื่อไหร่ก็ได้
+          เรียนสดผ่าน Zoom 72 ชั่วโมง ดูย้อนหลังได้ไม่จำกัด
           <br></br>
-          ครบทุกบทใน สอวน. ค่าย 1
+          เรียนได้ทั้งคนที่ชอบเรียนคอร์สสด และคนที่ชอบเรียนวิดีโอ
         </Typography>
         <Box
           sx={{
@@ -137,7 +137,7 @@ const FirstPage: NextPage = () => {
           display: "flex",
           position: "relative",
           width: { xs: "80vw", sm: "40vw" },
-          height: { xs: "67.04vw", sm: "33.52vw" },
+          height: { xs: "100vw", sm: "50vw" },
           marginLeft: { xs: "auto", sm: "auto" },
           marginRight: { xs: "auto", sm: "-4vw", md: "0vw" },
           marginTop: "50px",
@@ -147,7 +147,7 @@ const FirstPage: NextPage = () => {
         }}
       >
         <Image
-          src="/course-description.png"
+          src="/camp2-poster.png"
           alt="codechampion-course-description"
           layout="fill"
         />
@@ -156,4 +156,4 @@ const FirstPage: NextPage = () => {
   );
 };
 
-export { FirstPage };
+export { Poster2 };
