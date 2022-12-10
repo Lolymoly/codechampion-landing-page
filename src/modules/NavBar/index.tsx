@@ -39,10 +39,10 @@ function NavBar() {
   };
 
   const toPosn1 = () => {
-    location.href = "/posn1";
+    location.href = "/camp1";
   };
   const toPosn2 = () => {
-    location.href = "/posn2";
+    location.href = "/camp2";
   };
   const toHome = () => {
     location.href = "/";
@@ -167,6 +167,7 @@ function NavBar() {
                 fontStyle: "normal",
                 fontWeight: "400",
                 marginRight: "5vw",
+                fontSize: { xl: "20px" },
               }}
             >
               คอร์ส สอวน. ค่าย 1
@@ -181,6 +182,7 @@ function NavBar() {
                 fontStyle: "normal",
                 fontWeight: "400",
                 marginRight: "5vw",
+                fontSize: { xl: "20px" },
               }}
             >
               คอร์ส สอวน. ค่าย 2
