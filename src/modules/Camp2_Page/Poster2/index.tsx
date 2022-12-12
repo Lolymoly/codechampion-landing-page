@@ -112,7 +112,7 @@ const Poster2: NextPage = () => {
           </Button>
 
           <Button
-            href="https://www.facebook.com/CodeChampionTH/posts/103339842546095"
+            href="https://www.facebook.com/CodeChampionTH/posts/132695416277204"
             variant="outlined"
             sx={{
               marginLeft: "20px",
